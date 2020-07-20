@@ -1,0 +1,7 @@
+Data Peserta Sanbercode Bootcamp ReactJS
+
+1. Nama: Rifqi Pratama Juliansyah
+2. Email: rifqipratama9@gmail.com
+3. Sistem Operasi yang digunakan: Linux ( openSUSE Leap 15.1 )
+4. Akun Github: juliansyahrifqi
+5. Akun Telegram: @juliansyahrifqi
