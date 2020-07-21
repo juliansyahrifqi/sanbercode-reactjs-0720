@@ -1,0 +1,116 @@
+<html>
+
+<head>
+    <title>Contact</title>
+
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        section {
+            width: 80%;
+            margin: 0 auto;
+            border: 1px solid gray;
+            padding: 20px;
+            margin-top: 40px;
+            background: white;
+        }
+
+        .contact {
+            margin: 50px 0;
+        }
+
+        form {
+            margin-top: 40px;
+        }
+
+        .form-group {
+            display: grid;
+            grid-template-columns: 150px 1fr;
+            margin-top: 20px;
+        }
+
+        label {
+            margin-right: 50px;
+        }
+
+        input[type="submit"] {
+            margin-top: 20px;
+        }
+
+        a {
+            display: block;
+            text-align: center;
+            margin: 30px 0;
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body>
+
+    <section>
+
+        <div class="hubungi">
+            <h1>Hubungi Kami</h1>
+
+            <div class="contact">
+                <p><b> Kantor : </b> Komp. Vijaya Kusuma Blok A4 No. 26 Bandung</p>
+                <p><b> Nomor Telepon : </b> 085156041586 </p>
+                <p><b> Email : </b> rifqipratama9@gmail.com</p>
+            </div>
+        </div>
+
+        <div class="pesan">
+            <h1>Kirimkan Pesan</h1>
+
+            <form action="#">
+                <div class="form-group">
+                    <label for="nama"> Nama </label>
+                    <div class="input">
+                        <input type="text">
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <div class="input">
+                        <input type="text">
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="jenis-kelamin">Jenis Kelamin</label>
+                    <div class="input">
+                        <input type="radio" name="jk" value="Laki-Laki">
+                        <label for="laki-laki">Laki-Laki</label><br>
+                        <input type="radio" name="jk" value="Perempuan">
+                        <label for="perempuan">Perempuan</label>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="pesan-anda">Pesan Anda</label>
+                    <div class="input">
+                        <textarea name="pesan-anda" id="pesan-anda" cols="50" rows="5"></textarea>
+                    </div>
+
+                </div>
+
+                <input type="submit" value="Kirim">
+            </form>
+        </div>
+    </section>
+
+    <a href="index.html">Kembali Ke Index</a>
+
+</body>
+
+</html>
